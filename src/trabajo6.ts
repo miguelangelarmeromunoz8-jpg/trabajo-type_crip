@@ -8,7 +8,7 @@ interface Calificacion {
 }
 
 function resumirNotas(datos: Calificacion[], id: number) {
-  // Objetos simples para acumular valores
+ 
   let acumulador = { tareas: 0, quices: 0, examen: 0 };
   let contador = { tareas: 0, quices: 0, examen: 0 };
 
